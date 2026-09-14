@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
+<meta content="#03140e" name="theme-color"/>
+<title>STACKUP HOLD'EM ENTERPRISE</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&amp;display=swap" rel="stylesheet"/>
+
+<link href="styles.css" rel="stylesheet"/></head>
+<body>
+<main aria-label="STACKUP HOLD'EM ENTERPRISE" class="app" id="home-screen">
+<header class="hero">
+<div aria-label="Logotipo SH" class="logo-shell" data-i18n-aria="aria.logo">
+<img alt="SH" src="logo.svg"/>
+</div>
+<h1 class="brand">
+<span class="stackup">STACKUP HOLD'EM</span>
+<span class="enterprise">ENTERPRISE</span>
+</h1>
+<div class="subtitle" data-i18n="app.subtitle">SISTEMA DE GESTÃO IA PARA POKER</div>
+</header>
+<section aria-label="Menu principal" class="cards" data-i18n-aria="aria.mainMenu">
+<button aria-label="CADASTRO INICIAL" class="home-card" data-module-key="CADASTRO INICIAL" onclick="openModule('CADASTRO INICIAL')" type="button">
+<span aria-hidden="true" class="icon-wrap">
+<svg role="img" viewbox="0 0 24 24"><path d="M7.5 11.5a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm9 0a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5ZM2.5 19c.2-3.4 2.2-5.2 5-5.2s4.8 1.8 5 5.2M13 19c.2-2.8 1.8-4.3 4-4.3s3.8 1.5 4 4.3"></path></svg>
+</span>
+<span class="card-label" data-i18n-module-label="CADASTRO INICIAL">CADASTRO<br/>INICIAL</span>
+</button>
+<button aria-label="CADASTRO GERAL" class="home-card" data-module-key="CADASTRO GERAL" onclick="openModule('CADASTRO GERAL')" type="button">
+<span aria-hidden="true" class="icon-wrap">
+<svg role="img" viewbox="0 0 24 24"><path d="M9 5h11M9 12h11M9 19h11M4 5h.01M4 12h.01M4 19h.01"></path></svg>
+</span>
+<span class="card-label" data-i18n-module-label="CADASTRO GERAL">CADASTRO<br/>GERAL</span>
+</button>
+<button aria-label="CONFIGURAÇÕES BÁSICAS" class="home-card" data-module-key="CONFIGURAÇÕES BÁSICAS" onclick="openModule('CONFIGURAÇÕES BÁSICAS')" type="button">
+<span aria-hidden="true" class="icon-wrap">
+<svg role="img" viewbox="0 0 24 24"><path d="M12 8.8A3.2 3.2 0 1 0 12 15.2 3.2 3.2 0 0 0 12 8.8Z"></path><path d="M19.1 13.5a7.5 7.5 0 0 0 .05-3l2-1.55-2-3.46-2.38.96a7.4 7.4 0 0 0-2.6-1.5L13.8 2h-4l-.37 2.95a7.4 7.4 0 0 0-2.6 1.5L4.45 5.5l-2 3.46 2 1.55a7.5 7.5 0 0 0 0 3l-2 1.55 2 3.46 2.38-.96a7.4 7.4 0 0 0 2.6 1.5L9.8 22h4l.37-2.95a7.4 7.4 0 0 0 2.6-1.5l2.38.96 2-3.46-2.05-1.55Z"></path></svg>
+</span>
+<span class="card-label" data-i18n-module-label="CONFIGURAÇÕES BÁSICAS">CONFIGURAÇÕES<br/>BÁSICAS</span>
+</button>
+<button aria-label="ESTAÇÕES DE STAFF" class="home-card" data-module-key="ESTAÇÕES DE STAFF" onclick="openModule('ESTAÇÕES DE STAFF')" type="button">
+<span aria-hidden="true" class="icon-wrap">
+<svg role="img" viewbox="0 0 24 24"><path d="M4 5h16v11H4V5Zm6 15h4M12 16v4"></path></svg>
+</span>
+<span class="card-label" data-i18n-module-label="ESTAÇÕES DE STAFF">ESTAÇÕES<br/>DE STAFF</span>
+</button>
+<button aria-label="CONTROLES GERAIS" class="home-card" data-module-key="CONTROLES GERAIS" onclick="openModule('CONTROLES GERAIS')" type="button">
+<span aria-hidden="true" class="icon-wrap">
+<svg role="img" viewbox="0 0 24 24"><path d="M8 4h8v3c0 4-1.7 6-4 6s-4-2-4-6V4Z"></path><path d="M8 6H5c0 3 1 5 4 5M16 6h3c0 3-1 5-4 5M12 13v4M8.5 20h7M10 17h4"></path></svg>
+</span>
+<span class="card-label" data-i18n-module-label="CONTROLES GERAIS">CONTROLES<br/>GERAIS</span>
+</button>
+<button aria-label="TRANSAÇÕES DE JOGO" class="home-card" data-module-key="TRANSAÇÕES DE JOGO" onclick="openModule('TRANSAÇÕES DE JOGO')" type="button">
+<span aria-hidden="true" class="icon-wrap">
+<svg role="img" viewbox="0 0 24 24"><path d="m9 7 8 5-8 5V7Z"></path></svg>
+</span>
+<span class="card-label" data-i18n-module-label="TRANSAÇÕES DE JOGO">TRANSAÇÕES<br/>DE JOGO</span>
+</button>
+<button aria-label="GESTÃO FINANCEIRA" class="home-card" data-module-key="GESTÃO FINANCEIRA" onclick="openModule('GESTÃO FINANCEIRA')" type="button">
+<span aria-hidden="true" class="icon-wrap">
+<svg role="img" viewbox="0 0 24 24"><ellipse cx="12" cy="6" rx="5" ry="2.5"></ellipse><path d="M7 6v4c0 1.4 2.2 2.5 5 2.5s5-1.1 5-2.5V6M7 10v4c0 1.4 2.2 2.5 5 2.5s5-1.1 5-2.5v-4M7 14v4c0 1.4 2.2 2.5 5 2.5s5-1.1 5-2.5v-4"></path></svg>
+</span>
+<span class="card-label" data-i18n-module-label="GESTÃO FINANCEIRA">GESTÃO<br/>FINANCEIRA</span>
+</button>
+<button aria-label="RANKING E RESULTADOS" class="home-card" data-module-key="RANKING E RESULTADOS" onclick="openModule('RANKING E RESULTADOS')" type="button">
+<span aria-hidden="true" class="icon-wrap">
+<svg role="img" viewbox="0 0 24 24"><path d="M5 20V10h3v10H5Zm6 0V5h3v15h-3Zm6 0v-7h3v7h-3Z"></path></svg>
+</span>
+<span class="card-label" data-i18n-module-label="RANKING E RESULTADOS">RANKING E<br/>RESULTADOS</span>
+</button>
+<button aria-label="TELAS E ALERTAS" class="home-card" data-module-key="TELAS E ALERTAS" onclick="openModule('TELAS E ALERTAS')" type="button">
+<span aria-hidden="true" class="icon-wrap">
+<svg role="img" viewbox="0 0 24 24"><path d="M9 12a3 3 0 1 0 6 0 3 3 0 0 0-6 0Z"></path><path d="M6.3 5.8a9 9 0 0 0 0 12.4M17.7 5.8a9 9 0 0 1 0 12.4M3.5 3a13 13 0 0 0 0 18M20.5 3a13 13 0 0 1 0 18"></path></svg>
+</span>
+<span class="card-label" data-i18n-module-label="TELAS E ALERTAS">TELAS<br/>E ALERTAS</span>
+</button>
+<button aria-label="COMUNICAÇÕES E CRM" class="home-card" data-module-key="COMUNICAÇÕES E CRM" onclick="openModule('COMUNICAÇÕES E CRM')" type="button">
+<span aria-hidden="true" class="icon-wrap">
+<svg role="img" viewbox="0 0 24 24"><path d="M4 5h12v9H9l-4 4v-4H4V5Z"></path><path d="M9 9h2M13 9h1"></path></svg>
+</span>
+<span class="card-label" data-i18n-module-label="COMUNICAÇÕES E CRM">COMUNICAÇÕES<br/>E CRM</span>
+</button>
+<button aria-label="RELATÓRIOS E AUDITORIA" class="home-card" data-module-key="RELATÓRIOS E AUDITORIA" onclick="openModule('RELATÓRIOS E AUDITORIA')" type="button">
+<span aria-hidden="true" class="icon-wrap">
+<svg role="img" viewbox="0 0 24 24"><path d="M6 3h9l3 3v15H6V3Z"></path><path d="M15 3v4h4M9 11h6M9 15h6M9 19h4"></path></svg>
+</span>
+<span class="card-label" data-i18n-module-label="RELATÓRIOS E AUDITORIA">RELATÓRIOS<br/>E AUDITORIA</span>
+</button>
+<button aria-label="ASSISTÊNCIA DE IA" class="home-card" data-module-key="ASSISTÊNCIA DE IA" onclick="openModule('ASSISTÊNCIA DE IA')" type="button">
+<span aria-hidden="true" class="icon-wrap">
+<svg role="img" viewbox="0 0 24 24"><path d="M8 9.5A3.5 3.5 0 0 1 11.5 6v12A3.5 3.5 0 0 1 8 14.5a3 3 0 0 1 0-5Zm8 0A3.5 3.5 0 0 0 12.5 6v12a3.5 3.5 0 0 0 3.5-3.5 3 3 0 0 0 0-5Z"></path><path d="M9 12h6M7.5 9.5 6 8m10.5 1.5L18 8M7.5 14.5 6 16m10.5-1.5L18 16"></path></svg>
+</span>
+<span class="card-label" data-i18n-module-label="ASSISTÊNCIA DE IA">ASSISTÊNCIA<br/>DE IA</span>
+</button>
+<button aria-label="CASH GAMES" class="home-card" data-module-key="CASH GAMES" onclick="openModule('CASH GAMES')" type="button"><span aria-hidden="true" class="icon-wrap"><svg role="img" viewbox="0 0 24 24"><path d="M5 8.5c0-1.4 3.1-2.5 7-2.5s7 1.1 7 2.5-3.1 2.5-7 2.5-7-1.1-7-2.5Z"></path><path d="M5 8.5v3c0 1.4 3.1 2.5 7 2.5s7-1.1 7-2.5v-3"></path><path d="M5 11.5v3c0 1.4 3.1 2.5 7 2.5s7-1.1 7-2.5v-3"></path><path d="M9.5 5.5C10.2 4.6 11 4 12 4c1.1 0 2 .6 2.5 1.5"></path></svg></span><span class="card-label" data-i18n-module-label="CASH GAMES">CASH<br/>GAMES</span></button><button aria-label="BAR E REFEIÇÕES" class="home-card" data-module-key="BAR E REFEIÇÕES" onclick="openModule('BAR E REFEIÇÕES')" type="button"><span aria-hidden="true" class="icon-wrap"><svg role="img" viewbox="0 0 24 24"><path d="M7 3v7M4.5 3v4.5C4.5 9 5.5 10 7 10s2.5-1 2.5-2.5V3"></path><path d="M7 10v11"></path><path d="M15 3v7.5c0 1.4.9 2.5 2 2.5s2-.9 2-2V3"></path><path d="M17 13v8"></path></svg></span><span class="card-label" data-i18n-module-label="BAR E REFEIÇÕES">BAR E<br/>REFEIÇÕES</span></button></section>
+</main>
+<main aria-hidden="true" id="module-screen">
+<header class="module-header">
+<div class="module-logo">
+<img alt="SH" src="logo.svg"/>
+</div>
+<div class="module-brand">
+<span class="module-stackup">STACKUP HOLD'EM</span>
+<span class="module-enterprise">ENTERPRISE</span>
+<span class="module-subtitle" data-i18n="app.subtitle">SISTEMA DE GESTÃO IA PARA POKER</span>
+</div>
+</header>
+<nav aria-label="Navegação" class="module-nav" data-i18n-aria="aria.navigation">
+<button data-i18n="nav.previous" onclick="showHome()" type="button">PAGINA ANTERIOR</button>
+<button data-i18n="nav.main" onclick="showHome()" type="button">MENU PRINCIPAL</button>
+</nav>
+<section aria-label="Página principal do módulo" data-i18n-aria="aria.modulePage">
+<h1 class="module-title" id="module-title">CADASTRO INICIAL</h1>
+<div aria-label="Opções do módulo" class="module-grid" data-i18n-aria="aria.moduleOptions">
+<button aria-label="" class="home-card" onclick="openThirdLayer(1, this)" type="button">
+<span aria-hidden="true" class="icon-wrap"></span>
+<span aria-hidden="true" class="card-label blank-label"> </span>
+</button>
+<button aria-label="" class="home-card" onclick="openThirdLayer(2, this)" type="button">
+<span aria-hidden="true" class="icon-wrap"></span>
+<span aria-hidden="true" class="card-label blank-label"> </span>
+</button>
+<button aria-label="" class="home-card" onclick="openThirdLayer(3, this)" type="button">
+<span aria-hidden="true" class="icon-wrap"></span>
+<span aria-hidden="true" class="card-label blank-label"> </span>
+</button>
+<button aria-label="" class="home-card" onclick="openThirdLayer(4, this)" type="button">
+<span aria-hidden="true" class="icon-wrap"></span>
+<span aria-hidden="true" class="card-label blank-label"> </span>
+</button>
+<button aria-label="" class="home-card" onclick="openThirdLayer(5, this)" type="button">
+<span aria-hidden="true" class="icon-wrap"></span>
+<span aria-hidden="true" class="card-label blank-label"> </span>
+</button>
+<button aria-label="" class="home-card" onclick="openThirdLayer(6, this)" type="button">
+<span aria-hidden="true" class="icon-wrap"></span>
+<span aria-hidden="true" class="card-label blank-label"> </span>
+</button>
+</div>
+</section>
+</main>
+<main aria-hidden="true" id="third-layer-screen">
+<header class="module-header">
+<div class="module-logo">
+<img alt="SH" src="logo.svg"/>
+</div>
+<div class="module-brand">
+<span class="module-stackup">STACKUP HOLD'EM</span>
+<span class="module-enterprise">ENTERPRISE</span>
+<span class="module-subtitle" data-i18n="app.subtitle">SISTEMA DE GESTÃO IA PARA POKER</span>
+</div>
+</header>
+<nav aria-label="Navegação da terceira camada" class="module-nav" data-i18n-aria="aria.thirdNavigation">
+<button data-i18n="nav.previous" onclick="backToSecondLayer()" type="button">PAGINA ANTERIOR</button>
+<button data-i18n="nav.main" onclick="showHomeFromThird()" type="button">MENU PRINCIPAL</button>
+</nav>
+<section aria-label="Página da terceira camada" data-i18n-aria="aria.thirdPage">
+<h1 class="module-title" id="third-layer-title">CADASTRO INICIAL</h1>
+<div aria-label="Opções da terceira camada" class="module-grid" data-i18n-aria="aria.thirdOptions">
+<button aria-label="" class="home-card" type="button">
+<span aria-hidden="true" class="icon-wrap"></span>
+<span aria-hidden="true" class="card-label blank-label"> </span>
+</button>
+<button aria-label="" class="home-card" type="button">
+<span aria-hidden="true" class="icon-wrap"></span>
+<span aria-hidden="true" class="card-label blank-label"> </span>
+</button>
+<button aria-label="" class="home-card" type="button">
+<span aria-hidden="true" class="icon-wrap"></span>
+<span aria-hidden="true" class="card-label blank-label"> </span>
+</button>
+<button aria-label="" class="home-card" type="button">
+<span aria-hidden="true" class="icon-wrap"></span>
+<span aria-hidden="true" class="card-label blank-label"> </span>
+</button>
+<button aria-label="" class="home-card" type="button">
+<span aria-hidden="true" class="icon-wrap"></span>
+<span aria-hidden="true" class="card-label blank-label"> </span>
+</button>
+<button aria-label="" class="home-card" type="button">
+<span aria-hidden="true" class="icon-wrap"></span>
+<span aria-hidden="true" class="card-label blank-label"> </span>
+</button>
+</div><div aria-live="polite" class="language-note" id="language-note"><div class="language-note-title" data-i18n="language.noteTitle">OBSERVAÇÃO:</div><p data-i18n="language.noteText">Os termos internacionais e expressões consagradas do poker serão mantidos em inglês, independentemente do idioma principal selecionado. Isso inclui nomenclaturas técnicas, posições, ações, formatos de jogo e conceitos universalmente utilizados nas mesas e no estudo do poker.</p></div>
+</section>
+</main>
+
+
+
+
+<script src="app.js"></script></body>
+</html>
